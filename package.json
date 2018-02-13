@@ -1,0 +1,19 @@
+{
+  "name": "ssb-muxrpcperf",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/ssb-muxrpcperf",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/ssb-muxrpcperf.git"
+  },
+  "dependencies": {
+    "libnested": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
